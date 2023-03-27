@@ -1,0 +1,96 @@
+.faqdiv {
+  width: 100%;
+  background-color: black;
+  padding: 50px 0px;
+}
+.faq {
+  display: flex;
+  padding: 20px 0px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+.question {
+  width: 70%;
+  background-color: rgb(71, 71, 71);
+  padding: 0px;
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+}
+.question:hover {
+  background-color: rgb(93, 93, 93);
+}
+.question > span {
+  padding: 20px;
+}
+.question::before {
+  content: "+";
+  font-size: 40px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 30px;
+  top: 10px;
+}
+.topdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bottomdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 20px 0px;
+}
+.bottomdiv > div > button {
+  font-size: 18px;
+  border-radius: 0px;
+  background-color: red;
+  border: none;
+  padding: 15px 30px;
+  color: white;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.bottomdiv > div > input {
+  width: 500px;
+  height: 50px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.667);
+  color: white;
+  border-radius: 4px;
+}
+.content span {
+  font-weight: 400;
+  font-size: 20px;
+}
+.content {
+  padding: 0px;
+  background-color: rgb(29, 29, 29);
+  max-height: 0px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+.content.show {
+  padding: 10px 20px;
+  opacity: 1;
+  max-height: 400px;
+}

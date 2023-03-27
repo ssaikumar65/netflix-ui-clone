@@ -1,0 +1,49 @@
+.featured {
+  height: 90vh;
+  position: relative;
+}
+.featured > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.info > img {
+  width: 400px;
+}
+.info {
+  width: 35%;
+  position: absolute;
+  left: 50px;
+  bottom: 100px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+.buttons > button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.play {
+  background-color: white;
+  color: var(--main-color);
+  gap: 10px;
+}
+.more {
+  background-color: gray;
+  color: white;
+  gap: 10px;
+  font-weight: bold;
+}
