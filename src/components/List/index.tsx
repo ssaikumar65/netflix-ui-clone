@@ -1,4 +1,5 @@
-import { ArrowBackIosNewOutlined, ArrowForwardIos } from "@mui/icons-material";
+import ArrowBackIosNewOutlined from "@mui/icons-material/ArrowBackIosNewOutlined";
+import ArrowForwardIos from "@mui/icons-material/ArrowForwardIos";
 import { useRef, useState, useEffect, useCallback } from "react";
 import { data } from "../../api/movies";
 import ListItem from "../ListItem";

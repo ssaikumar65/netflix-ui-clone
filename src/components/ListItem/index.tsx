@@ -1,4 +1,7 @@
-import { Add, PlayArrow, ThumbUpAltOutlined } from "@mui/icons-material";
+import ThumbUpAltOutlined from "@mui/icons-material/ThumbUpAltOutlined";
+import PlayArrow from "@mui/icons-material/PlayArrow";
+import Add from "@mui/icons-material/Add";
+
 import "./index.css";
 
 export default function ListItem({ item }: { item: any }) {
